@@ -1,0 +1,12 @@
+[
+  {
+    "type": "console"
+  },
+  {
+    "type"    : "file",
+    "filename": "logs/log.log",
+    "maxLogSize": 1024,
+    "backups" : 3,
+    "category": "normal"
+  }
+]
