@@ -58,10 +58,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-// var Log = log4js.getLogger('normal');
-
-// console.log = Log.info;
-// console.error = Log.error;
-// console.warn = Log.warn;
-
 module.exports = app;
